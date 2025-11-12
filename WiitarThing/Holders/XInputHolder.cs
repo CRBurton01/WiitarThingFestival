@@ -278,14 +278,14 @@ namespace WiitarThing.Holders
                     result.Add(Guitar.InputNames.RIGHT, Inputs.Xbox360.RIGHT);
 
                     result.Add(Guitar.InputNames.SELECT, Inputs.Xbox360.RB);
-                    result.Add(Guitar.InputNames.START, Inputs.Xbox360.LT);
+                    result.Add(Guitar.InputNames.START, Inputs.Xbox360.START);
                     result.Add(Guitar.InputNames.HOME, Inputs.Xbox360.GUIDE);
 
                     //result.Add(Guitar.InputNames.WHAMMYLOW, Inputs.Xbox360.RLEFT);
                     result.Add(Guitar.InputNames.WHAMMYHIGH, Inputs.Xbox360.RT);
 
                     //result.Add(Guitar.InputNames.TILTLOW, Inputs.Xbox360.RDOWN);
-                    //result.Add(Guitar.InputNames.TILTHIGH, Inputs.Xbox360.RUP);
+                    result.Add(Guitar.InputNames.TILTHIGH, Inputs.Xbox360.LT);
 
                     //result.Add(Wiimote.InputNames.UP, "");
                     //result.Add(Wiimote.InputNames.DOWN, "");
